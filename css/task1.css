@@ -1,0 +1,36 @@
+body {
+  padding: 2em;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.tab_list {
+  overflow: hidden;
+}
+.tab_list li {
+  float: left;
+  padding: 10px 25px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.tab_list li:not(:first-child) {
+  border-left: none;
+}
+.tab_list li.active {
+  background-color: black;
+  color: #fff;
+  cursor: auto;
+}
+.article {
+  overflow: hidden;
+  margin-top: -1px;
+}
+.article li {
+  /* width: 320px; */
+  /* padding-top: 20px; */
+}
